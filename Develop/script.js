@@ -1,6 +1,5 @@
 // Start working code
 // User input variables: 
-var enter;
 var confirmNumber;
 var confirmCharacter;
 var confirmUppercase;
