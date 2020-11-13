@@ -11,7 +11,7 @@
 
 <br>
 
-Link for application: [Password Generator](https://dbridgman1.github.io/Responsive-Portfolio/)
+Link for application: [Password Generator](https://dbridgman1.github.io/Password-Generator/)
 
 ## Fucntionality
 
