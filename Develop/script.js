@@ -6,6 +6,7 @@ var confirmCharacter;
 var confirmUppercase;
 var confirmLowercase;
 var choices; 
+var enter;
 // Special characters 
 var character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
 // Numeric characters
@@ -111,7 +112,6 @@ function generatePassword() {
         password.push(pickChoices);
     }
     // This joins the password array and converts it to a string
-    // Worked with a tutor to incorporate this option
     var ps = password.join("");
     UserInput(ps);
     return ps;
@@ -121,17 +121,4 @@ function generatePassword() {
 function UserInput(ps) {
     document.getElementById("password").textContent = ps;
 
-}
-
-var copy = document.querySelector("#copy");
-copy.addEventListener("click", function () {
-    copyPassword();
-});
-// This copies the password value - works
-// Code example demonstrated in a youtube video: 
-// Source: https://youtu.be/9sT03jEwcaw
-function copyPassword() {
-    document.getElementById("password").select();
-    document.execCommand("Copy");
-    alert("Password copied to clipboard!");
 }
