@@ -12,7 +12,7 @@ I am to create an application that an employee can use to generate a random pass
 
 <br>
 
-Link for application: [Password Generator](https://dbridgman1.github.io/Password-Generator/)
+Link to application: [Password Generator](https://dbridgman1.github.io/Password-Generator/)
 
 ## Fucntionality
 
